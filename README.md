@@ -1,8 +1,8 @@
 # Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board
 ## Overview
 
-<img src="http://www.explorelabs.com/media/catalog/product//l/3/l3gd20h-03.jpg" width="400" alt="Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board - Top" />
-<img src="http://www.explorelabs.com/media/catalog/product//l/3/l3gd20h-02.jpg" width="400" alt="Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board - Bottom" />
+<img src="http://www.explorelabs.com/media/catalog/product//l/s/lsm303-02.jpg" width="400" alt="Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board - Top" />
+<img src="http://www.explorelabs.com/media/catalog/product//l/s/lsm303-03.jpg" width="400" alt="Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board - Bottom" />
 
 [Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board](http://www.explorelabs.com/explore-labs-3d-accelerometer-3d-magnetometer-lsm303d-compass-breakout-board-5v-ready-with-voltage-regulator "Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board") is based on the ST LSM303D sensor, a 3D digital linear acceleration sensor and a 3D digital magnetic sensor that is ideal for making a tilt-compensated compass.
 
