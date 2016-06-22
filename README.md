@@ -1,10 +1,10 @@
 # Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board
 ## Overview
 
-<img src="http://www.explorelabs.com/media/catalog/product//l/3/l3gd20h-03.jpg" width="400" alt="Explore Labs 3D Gyroscope L3GD20H Breakout Board - Top" />
-<img src="http://www.explorelabs.com/media/catalog/product//l/3/l3gd20h-02.jpg" width="400" alt="Explore Labs 3D Gyroscope L3GD20H Breakout Board - Bottom" />
+<img src="http://www.explorelabs.com/media/catalog/product//l/3/l3gd20h-03.jpg" width="400" alt="Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board - Top" />
+<img src="http://www.explorelabs.com/media/catalog/product//l/3/l3gd20h-02.jpg" width="400" alt="Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board - Bottom" />
 
-[Explore Labs 3D Gyroscope L3GD20H Breakout Board](http://www.explorelabs.com/explore-labs-3d-gyroscope-l3gd20h-breakout-board-5v-ready-with-voltage-regulator "Explore Labs 3D Gyroscope L3GD20H Breakout Board") The LSM303D is a system-in-package featuring a 3D digital linear acceleration sensor and a 3D digital magnetic sensor that is ideal for making a tilt-compensated compass.
+[Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board](http://www.explorelabs.com/explore-labs-3d-accelerometer-3d-magnetometer-lsm303d-compass-breakout-board-5v-ready-with-voltage-regulator "Explore Labs 3D Accelerometer + 3D Magnetometer LSM303D Compass Breakout Board") is based on the ST LSM303D sensor, a 3D digital linear acceleration sensor and a 3D digital magnetic sensor that is ideal for making a tilt-compensated compass.
 
 The LSM303D includes an I2C serial bus interface that supports standard and fast mode (100 kHz and 400 kHz) and SPI serial standard interface. The system can be configured to generate an interrupt signal for free-fall, motion detection and magnetic field detection. Thresholds and timing of interrupt generators are programmable by the end user. Magnetic and accelerometer blocks can be enabled or put into power-down mode separately.
 
