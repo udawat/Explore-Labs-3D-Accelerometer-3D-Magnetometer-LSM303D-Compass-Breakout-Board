@@ -30,18 +30,18 @@
 
 int8_t readData   = 0x01;
 int8_t writeData  = 0x00;
-int8_t address    = 0x1D;  //address of LSM303D with SDO/ADR/SA0 pulled HIGH.
-//int8_t address  = 0x1E;  //address of LSM303D with SDO/ADR/SA0 connected to GND.
+int8_t address    = 0x1D; // Device address of LSM303D with SDO/ADR/SA0 pulled HIGH.
+//int8_t address  = 0x1E; // Device address of LSM303D with SDO/ADR/SA0 connected to GND.
 
-int16_t ax, ay, az;   //16-bit variables to hold raw data from sensor
+int16_t ax, ay, az;       // 16-bit variables to hold raw data from sensor
 int16_t mx, my, mz;
 float heading;
 
 void setup() {
   Serial.begin(9600);
   Wire.begin();
-  writeReg(CTRL1, 0x37); // Initialize the sensor by setting
-  writeReg(CTRL5, 0x08); // control registers
+  writeReg(CTRL1, 0x37);  // Initialize the sensor by setting
+  writeReg(CTRL5, 0x08);  // control registers
   writeReg(CTRL7, 0x00);  
   delay(100);
 }
@@ -71,7 +71,7 @@ void loop() {
   Serial.print(az*0.000061F, DEC); Serial.print("\t");
   Serial.println();
 
-  heading = atan2(my, mx);
+  heading = atan2(my, mx);// Calculation for heading. North is zero degrees.
   if(heading < 0)
     heading += 2 * M_PI;
   Serial.println(heading * 180/M_PI);

@@ -33,18 +33,18 @@
 int8_t readData   = 0x80;
 int8_t writeData  = 0x00;
 
-int16_t ax, ay, az;   //16-bit variables to hold raw data from sensor
+int16_t ax, ay, az;       // 16-bit variables to hold raw data from sensor
 int16_t mx, my, mz;
 float heading;
 
-const int CS = 10;    // Chip Select pin for SPI
+const int CS = 10;        // Chip Select pin for SPI
 
 void setup() {
   Serial.begin(9600);
   SPI.begin();
   pinMode(CS, OUTPUT);
-  writeReg(CTRL1, 0x37); // Initialize the sensor by setting
-  writeReg(CTRL5, 0x04); // control registers
+  writeReg(CTRL1, 0x37);  // Initialize the sensor by setting
+  writeReg(CTRL5, 0x04);  // control registers
   writeReg(CTRL7, 0x00);  
   delay(100);
 }
@@ -74,7 +74,7 @@ void loop() {
   Serial.print(az*0.000061F, DEC); Serial.print("\t");
   Serial.println();
 
-  heading = atan2(my, mx);  // Calculation for heading. North is zero degrees.
+  heading = atan2(my, mx);// Calculation for heading. North is zero degrees.
   if(heading < 0)
     heading += 2 * M_PI;
   Serial.println(heading * 180/M_PI);
